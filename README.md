@@ -81,8 +81,8 @@ POST https://llmbox.technokratos.com/generate-ai-response
     {"role": "assistant", "content": "Конечно! В разделе 'Переводы' выберите получателя и введите сумму."},
     {"role": "user", "content": "Есть ли комиссии за переводы?"}
   ],
-  "assistant": "yandex_gpt",
-  "source": "technokratos_gpt_bot"
+  "assistant": "chat_gpt",
+  "source": "hackathon"
 }
 ```
 
