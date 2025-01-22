@@ -60,7 +60,7 @@
 Пример отправки текста для извлечения сущностей:
 
 ```json
-POST /extract-ner
+POST https://nerbox.technokratos.com/extract-ner
 {
   "text": "Иван Иванов живет в Москве на улице Пушкина, дом 10.",
   "entities": ["first_name", "last_name", "city", "street", "house"]
