@@ -4,7 +4,7 @@
 Этот эндпоинт предназначен для анализа тональности текста. Он принимает текстовый запрос и возвращает тональность (`positive`, `neutral`, `negative`) с вероятностями для каждого класса.
 
 ### Эндпоинт
-- **URL:** `https://sentiment.technokratos.com/sentiment-docs/analyze-sentiment`
+- **URL:** `https://sentiment.technokratos.com/analyze-sentiment`
 - **Метод:** `POST`
 - **Модель ответа:** `AnalyzeSentimentResponse`
 
@@ -46,7 +46,7 @@
 Пример отправки текста для анализа тональности:
 
 ```json
-POST https://sentiment.technokratos.com/sentiment-docs/analyze-sentiment
+POST https://sentiment.technokratos.com/analyze-sentiment
 {
   "message": "Этот проект просто невероятный!"
 }
